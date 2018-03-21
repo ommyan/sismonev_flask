@@ -1,0 +1,18 @@
+function Vehicle(class_t, type_t)
+{
+    this.typeClass = class_t;
+    this.typeVehicle = type_t;
+}
+
+function test1()
+{
+	var tmp=new Array();
+	tmp[0] = new Vehicle("SUV", "Chevy");
+	tmp[1] = new Vehicle("SEDAN", "Nissan");
+	
+	myDataObject = new Object;
+	myDataObject.Vehicles = tmp;
+	
+	objectJSON = JSON.stringify(myDataObject);
+	console.log(objectJSON);
+}

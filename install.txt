@@ -1,0 +1,2 @@
+pip install flask flask-jsonpify flask-sqlalchemy flask-restful flask_cors flask-mysql
+pip freeze
